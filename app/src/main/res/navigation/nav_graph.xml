@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@layout/fragment_kidscafe_search">
+
+    <fragment
+        android:id="@+id/kidsCafeSearchFragment"
+        android:name="com.cplaygr.sample.busankidscafe.view.KidsCafeSearchFragment"
+        android:label="fragment_kidscafe"
+        tools:layout="@layout/fragment_kidscafe_search">
+    </fragment>
+</navigation>
